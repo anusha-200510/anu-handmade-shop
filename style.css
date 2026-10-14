@@ -422,3 +422,34 @@
     height: 170px;
   }
 }
+/* ANU — Elegant Shopping Cart */
+
+#cart {
+  background: #fffaf7;
+  border: 1px solid #f1dce5;
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 8px 24px rgba(120, 85, 105, 0.10);
+}
+
+#cart button {
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+#cart button:hover {
+  filter: brightness(0.96);
+}
+
+#cart input {
+  border: 1px solid #e8cbd8;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+@media (max-width: 680px) {
+  #cart {
+    padding: 15px;
+    border-radius: 18px;
+  }
+}
