@@ -15,3 +15,8 @@ ANU Handmade Shop - corrected files
 Prices set from your instructions: Single Flower ₹50, Blue Lily ₹59, Lily Keychains ₹99,
 Small Bouquet ₹110, Luxury Rose Bouquet ₹1499, Home Decor ₹500.
 Custom prices are shown as "Ask for price".
+
+UPGRADE NOTES
+- Updated the palette to pastel blue, pink, and cream.
+- Corrected product image paths to match the filenames in the image folder.
+- Kept the existing HTML structure and shopping/WhatsApp features.

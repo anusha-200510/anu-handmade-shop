@@ -3,25 +3,25 @@ const WHATSAPP_NUMBER = "917483917115";
 
 const categories = [
   { name: "All", icon: "✿", count: "Every little thing", image: "image/all.jpg.jpeg" },
-  { name: "Single Flowers", icon: "🌷", count: "Little blooms", image: "image/singleFlower.jpg.jpeg" },
+  { name: "Single Flowers", icon: "🌷", count: "Little blooms", image: "image/singleFlower.jpg.jpeg.jpeg" },
   { name: "Bouquets", icon: "💐", count: "Bunches of joy", image: "image/baby-pink-bouqute.jpg.jpeg" },
   { name: "Customised Bouquets", icon: "🎀", count: "Made for you", image: "image/customise-bouqute.jpg.jpeg" },
-  { name: "Curtain Holders", icon: "🪟", count: "Pretty details", image: "image/single-flower.jpg.jpeg" },
-  { name: "Lily Keychains", icon: "🔑", count: "Tiny keepsakes", image: "image/key-chains.jpg.jpeg" },
+  { name: "Curtain Holders", icon: "🪟", count: "Pretty details", image: "image/single-flower.jpg.jpeg.jpeg" },
+  { name: "Lily Keychains", icon: "🔑", count: "Tiny keepsakes", image: "image/key-chains.jpg.jpeg.jpeg" },
   { name: "Hangings", icon: "🪻", count: "Hang a little joy", image: "image/hanging.jpg.jpeg" },
-  { name: "Home Décor", icon: "🏡", count: "For your space", image: "image/home-decor.jpg.jpeg" }
+  { name: "Home Décor", icon: "🏡", count: "For your space", image: "image/home-decor.jpg.jpeg.jpeg" }
 ];
 
 const products = [
-  { id: 1, name: "Single Flower", category: "Single Flowers", price: 50, emoji: "🌷", image: "image/singleFlower.jpg", color: "#dff3ff", badge: "HANDMADE", description: "One sweet handmade bloom." },
-  { id: 2, name: "Blue Lily", category: "Single Flowers", price: 59, emoji: "🪷", image: "image/singleFlower.jpg", color: "#dff3ff", badge: "POPULAR", description: "A little blue handmade lily." },
-  { id: 3, name: "Lily Keychains", category: "Lily Keychains", price: 99, emoji: "🌸", image: "image/key-chains.jpg", color: "#f1e9fb", badge: "GIFT IDEA", description: "Tiny flowers to take along." },
-  { id: 4, name: "Small Bouquet", category: "Bouquets", price: 110, emoji: "💐", image: "image/baby-pink-bouquet.jpg.jpeg", color: "#f9e5ec", badge: "FAVOURITE", description: "A sweet little handmade bouquet." },
+  { id: 1, name: "Single Flower", category: "Single Flowers", price: 50, emoji: "🌷", image: "image/singleFlower.jpg.jpeg", color: "#dff3ff", badge: "HANDMADE", description: "One sweet handmade bloom." },
+  { id: 2, name: "Blue Lily", category: "Single Flowers", price: 59, emoji: "🪷", image: "image/singleFlower.jpg.jpeg", color: "#dff3ff", badge: "POPULAR", description: "A little blue handmade lily." },
+  { id: 3, name: "Lily Keychains", category: "Lily Keychains", price: 99, emoji: "🌸", image: "image/key-chains.jpg.jpeg", color: "#f1e9fb", badge: "GIFT IDEA", description: "Tiny flowers to take along." },
+  { id: 4, name: "Small Bouquet", category: "Bouquets", price: 110, emoji: "💐", image: "image/baby-pink-bouqute.jpg.jpeg", color: "#f9e5ec", badge: "FAVOURITE", description: "A sweet little handmade bouquet." },
   { id: 5, name: "Luxury Rose Bouquet", category: "Bouquets", price: 1499, emoji: "💐", image: "image/cute-pink-bouquet.jpg.jpeg", color: "#f4e4ef", badge: "SPECIAL", description: "A luxury bouquet made with love." },
-  { id: 6, name: "Home Decor", category: "Home Décor", price: 500, emoji: "🏡", image: "image/home-decor.jpg", color: "#e2f4f7", badge: "HOME FAVOURITE", description: "A handmade touch for your space." },
-  { id: 7, name: "Customised Bouquet", category: "Customised Bouquets", price: 0, emoji: "🎀", image: "image/baby-pink-bouquet.jpg", color: "#f7edcf", badge: "CUSTOM", description: "Ask us for a price based on your design." },
-  { id: 8, name: "Curtain Holders", category: "Curtain Holders", price: 0, emoji: "🌼", image: "image/single-flower.jpg", color: "#e7f2e8", badge: "MADE TO ORDER", description: "Ask us for available designs and pricing." },
-  { id: 9, name: "Flower Hanging", category: "Hangings", price: 0, emoji: "🌸", image: "image/home-decor.jpg", color: "#e2f4f7", badge: "HANDMADE", description: "A little colour for your wall." },
+  { id: 6, name: "Home Decor", category: "Home Décor", price: 500, emoji: "🏡", image: "image/home-decor.jpg.jpeg", color: "#e2f4f7", badge: "HOME FAVOURITE", description: "A handmade touch for your space." },
+  { id: 7, name: "Customised Bouquet", category: "Customised Bouquets", price: 0, emoji: "🎀", image: "image/baby-pink-bouqute.jpg.jpeg", color: "#f7edcf", badge: "CUSTOM", description: "Ask us for a price based on your design." },
+  { id: 8, name: "Curtain Holders", category: "Curtain Holders", price: 0, emoji: "🌼", image: "image/single-flower.jpg.jpeg", color: "#e7f2e8", badge: "MADE TO ORDER", description: "Ask us for available designs and pricing." },
+  { id: 9, name: "Flower Hanging", category: "Hangings", price: 0, emoji: "🌸", image: "image/home-decor.jpg.jpeg", color: "#e2f4f7", badge: "HANDMADE", description: "A little colour for your wall." },
   {
     id: 10,
     name: "Pink Luxury Bouquet",
