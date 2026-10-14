@@ -457,3 +457,76 @@ if ($("year")) {
 renderCategories();
 renderProducts();
 updateCart();
+/* ANU — Elegant Pastel Shopping Cart */
+
+#cartItems {
+  display: grid;
+  gap: 14px;
+}
+
+#cartItems .cart-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px;
+  background: #fffaf7;
+  border: 1px solid #f1dce5;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(120, 85, 105, 0.08);
+}
+
+#cartItems .cart-thumb {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  font-size: 30px;
+}
+
+#cartItems .cart-line h4 {
+  margin: 0 0 6px;
+  color: #365c70;
+}
+
+#cartItems .cart-line p {
+  margin: 0 0 8px;
+  color: #7a6872;
+  font-size: 14px;
+}
+
+#cartItems .qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#cartItems .qty-controls button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #e8bfd0;
+  border-radius: 50%;
+  background: #f8e4ec;
+  color: #8f4968;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#cartItems .qty-controls button:hover {
+  background: #edc5d6;
+}
+
+@media (max-width: 480px) {
+  #cartItems .cart-line {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #cartItems .cart-thumb {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+    font-size: 25px;
+  }
+}
