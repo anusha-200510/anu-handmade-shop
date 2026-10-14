@@ -227,3 +227,68 @@
 .product-buttons button:hover {
   opacity: 0.85;
 }
+/* ANU — Pastel Blue, Pink & Cream Hero Upgrade */
+
+.hero {
+  background: linear-gradient(
+    120deg,
+    #e5f5ff 0%,
+    #fce8ef 55%,
+    #fff7e9 100%
+  ) !important;
+  border-radius: 0 0 28px 28px;
+}
+
+.hero h1 {
+  color: #28536b;
+  line-height: 1.15;
+}
+
+.hero h1 em {
+  color: #c76d91;
+}
+
+.hero .eyebrow {
+  color: #568ba6;
+}
+
+.hero-description {
+  color: #5e6972;
+  line-height: 1.8;
+}
+
+.hero .button-dark {
+  background: #397e9e;
+  color: #fff;
+  border-radius: 30px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.hero .button-dark:hover {
+  background: #c76d91;
+  transform: translateY(-2px);
+}
+
+.hero .text-link {
+  color: #a9587b;
+}
+
+.hero-note {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  padding: 12px 15px;
+}
+
+.hero-art.hero-photo {
+  border: 5px solid rgba(255, 255, 255, 0.9) !important;
+  border-radius: 28px !important;
+  background: #fff8f0 !important;
+  box-shadow: 0 18px 40px rgba(89, 115, 135, 0.15) !important;
+}
+
+.hero-art.hero-photo .hero-art-caption {
+  background: rgba(255, 250, 246, 0.94) !important;
+  color: #a9587b !important;
+  font-weight: 600;
+}
